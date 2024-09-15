@@ -6,8 +6,8 @@ import { Environment, Center, AccumulativeShadows, RandomizedLight, OrbitControl
 
 function Model() {
   // CHANGE MODEL
-  const { scene } = useGLTF("/tiger/scene.gltf");
-
+  const { scene } = useGLTF("/buddha_-_four_faces/scene.gltf");
+  
   useMemo(() => {
     scene.traverse((child) => {
       if ((child as THREE.Mesh).isMesh) {
